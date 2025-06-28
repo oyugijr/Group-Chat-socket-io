@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getRooms, createRoom, getMessages, socket } from "../services/backenInt";
+import { getRooms, getMessages, socket } from "../services/backenInt";
 import ChatRoom from "../components/ChatRoom";
 
 
